@@ -31,7 +31,7 @@ class NewContact extends Component{
         this.setState(mod);
     };
 
-    handleSubmit = (index, overrride = false) => {
+    handleSubmit = (index, override = false) => {
         if(index === fields.length -1 || override){
             alert('submit');
         } else {
